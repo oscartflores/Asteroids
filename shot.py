@@ -1,7 +1,7 @@
 import pygame
 from constants import *
 from circleshape import CircleShape
-from player import Player
+
 
 class Shot(CircleShape):
     def __init__(self, x, y, radius):
